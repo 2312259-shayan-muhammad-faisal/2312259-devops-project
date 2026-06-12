@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Environment
+.env
+*.env
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Test artifacts
+test.db
+
+# Docker files (not needed inside image)
+docker-compose*.yml
+Dockerfile
+
+# Docs
+README.md
+*.md
+
+# IDE
+.vscode/
+.idea/
+
+# GitHub Actions
+.github/
