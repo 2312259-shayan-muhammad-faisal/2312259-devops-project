@@ -57,7 +57,7 @@ def create_student(student: StudentCreate, db: Session = Depends(get_db)):
         models.Student.reg_no == student.reg_no
     ).first()
     if existing:
-        raise HTTPException(status_code=400, detail="Student with this reg_no already exists")
+        raise HTTPException(status_code=400, detail="Student with this reg_no already exists.")
     db_student = models.Student(**student.model_dump())
     db.add(db_student)
     db.commit()
