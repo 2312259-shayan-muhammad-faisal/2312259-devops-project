@@ -5,7 +5,7 @@ from typing import List
 from . import models, database
 from pydantic import BaseModel
 
-app = FastAPI(title="DevOps Project - 2312259")
+app = FastAPI(title="DevOps Project - 2312259 - Shayan Muhammad Faisal")
 
 
 @app.on_event("startup")
