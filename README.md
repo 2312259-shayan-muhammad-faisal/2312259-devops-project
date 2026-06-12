@@ -172,4 +172,4 @@ Add these in: Repository → Settings → Secrets and variables → Actions
 Built with Docker + Docker Compose for containerised deployment
 
 ## CI/CD Pipeline
-GitHub Actions runs flake8 and pytest on every push.
+GitHub Actions runs flake8 and pytest on every push
