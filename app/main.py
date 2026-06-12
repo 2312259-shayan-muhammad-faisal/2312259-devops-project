@@ -76,5 +76,5 @@ def get_student(reg_no: str, db: Session = Depends(get_db)):
         models.Student.reg_no == reg_no
     ).first()
     if not student:
-        raise HTTPException(status_code=404, detail="Student not found")
+        raise HTTPException(status_code=404, detail="Student not found.")
     return student
