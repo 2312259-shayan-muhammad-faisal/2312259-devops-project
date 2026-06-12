@@ -167,3 +167,6 @@ Add these in: Repository → Settings → Secrets and variables → Actions
 │       └── cd.yml            ← Deploy to EC2
 └── README.md
 ```
+
+## Docker Setup
+Built with Docker + Docker Compose for containerised deployment.
